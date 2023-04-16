@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <div id="mySidepanel" class="sidepanel">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <button onclick="openPage1()" class="b1">Cricket Match</button>
+    <button onclick="openPage2()" class="b2">My Favourite Book</button>
+  </div>
+  
+  <link rel="icon " type="images/x-icon" href="/download-removebg-preview (22).ico">
+  <style>
+     .sidepanel {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  transition: 0.5s; /* 0.5 second transition for opening and closing the panel */
+  padding-top: 60px; /* Place content 60px from the top */
+}
+.b1{
+  margin-top: 115px;
+  background-color: #111;
+  color: white;
+  width:inherit ;
+  height: 50px;
+  border-color: white;
+}
+.b2{
+  
+  background-color: #111;
+  color: white;
+  width:inherit ;
+  height: 50px;
+  border-color: white;
+}
+
+/* The close button */
+.closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  margin-top: 110px;
+}
+
+/* Style the button that opens the side panel */
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+    header {
+  height: 100px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background-color: rgb(112, 138, 255);
+
+  
+}
+.button{
+  background-color:rgb(112, 138, 255) ;
+  border: none;
+  height:60px ;
+  cursor:pointer;
+  border-radius:50px ;
+  width: 70px;
+  margin-top: 15px;
+  display: inline;
+}
+h1{
+ 
+  font-size: 70px;
+}
+.sign-in{
+background-color:rgb(0, 183, 255) ;
+border: none;
+height: 46px;
+border-radius: 50px;
+margin-right: 20px;
+width:60px ;
+cursor: pointer;
+}
+.p{
+  margin-top: 100px;
+}
+p{
+  font-size: 50px;
+  font-family:arial ;
+  
+}
+  </style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>English Essays</title>
+  <header >
+  <div class="more-options">
+    <button onclick="openNav();" class="button">
+      <img style="height: 60px;" src="/images-removebg-preview (8).png" >
+    </button>
+</div>
+<div>
+  <h1>
+    Courtesy Essay
+  </h1>
+</div>
+<div>
+  <button class="sign-in">
+    Sign In
+  </button>
+</div>
+  </header>
+</head>
+
+<body style="background-color: rgb(0, 193, 252);">
+  <p class="p">
+    Courtesy is a fundamental aspect of human behaviour that is characterized by politeness, respect, and kindness. It is a behaviour that is based on the principles of treating others with dignity and consideration. The importance of courtesy in our daily lives cannot be overstated, as it has a significant impact on our relationships with others and the overall quality of our lives.
+  
+  </p>
+  <p>
+    One of the key benefits of practicing courtesy is that it helps to improve our relationships with others. When we are courteous, we demonstrate to others that we respect them and value their feelings. This, in turn, leads to stronger and more positive relationships as individuals are more likely to feel appreciated and valued when they are treated with respect and kindness. 
+  </p>
+  <p>
+    By demonstrating courtesy, we can build trust, foster goodwill, and foster better communication with others.
+  Another important benefit of practicing courtesy is that it helps to promote a positive and harmonious environment. When individuals treat each other with kindness and respect, it creates an atmosphere of mutual understanding and cooperation, leading to a more harmonious and positive environment. This can be particularly beneficial in the workplace, where employees are more likely to be productive and efficient when they feel valued and respected by their colleagues.
+  Practicing courtesy also has a positive impact on our own well-being.
+  
+  </p>
+  <p>
+    When we engage in courteous behaviour, we are more likely to feel good about ourselves and our interactions with others. This can lead to increased self-esteem and a sense of personal satisfaction, as we are able to make a positive difference in the lives of others. Additionally, when we treat others with respect and kindness, we are more likely to receive the same in return, leading to improved relationships and a better quality of life. 
+    Another key aspect of the importance of courtesy is that it is essential for building strong and healthy communities. When individuals demonstrate courtesy, they are contributing to a sense of community spirit, as they show that they care about others and are committed to promoting the well-being of those around them. This can lead to a more supportive and inclusive community, as individuals are more likely to work together and cooperate when they feel valued and respected by others.
+    
+  </p>
+  <p>
+    Finally, practicing courtesy can have a positive impact on our mental and physical health. Research has shown that individuals who engage in courteous behaviour are less likely to experience stress and anxiety, and are more likely to experience positive emotions, such as happiness and contentment. This can lead to improved overall health and well-being, as individuals are able to manage stress and maintain a positive outlook on life.
+    In conclusion, the importance of courtesy cannot be overstated. By demonstrating politeness, respect, and kindness, individuals can improve their relationships with others, promote a positive and harmonious environment, boost their own well-being, build strong and healthy communities, and improve their mental and physical health. Whether it is in our personal or professional lives, demonstrating courtesy is an essential aspect of human behaviour that has a positive impact on everyone around us.
+  </p>
+  <script>
+   /* Open the side panel */
+function openNav() {
+  document.getElementById("mySidepanel").style.width = "250px";
+}
+
+/* Close the side panel */
+function closeNav() {
+  document.getElementById("mySidepanel").style.width = "0";
+}
+function openPage1(){
+ window.location.href ="http://127.0.0.1:5500/criket%20match.html" ;
+}
+function openPage2(){
+   window.location.href ="http://127.0.0.1:5500/intro/into-to-html/styles/my%20favourite%20book.htm" ;
+}
+
+      </script>
+
+  </script>
+</body>
+</html>
